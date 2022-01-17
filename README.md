@@ -52,6 +52,35 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 - [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
 - [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
 
+## env variables
+```
+JWT_SECRET=********-****-****-****-*********
+API_TOKEN_SALT=*******************************
+
+DATABASE_HOST=111.0.0.1
+DATABASE_PORT=5432
+DATABASE_NAME=dbname
+DATABASE_USERNAME=******
+DATABASE_PASSWORD=********
+DATABASE_SSL=false
+
+SMTP_HOST=smtp-relay.test.com
+SMTP_PORT=587
+SMTP_USERNAME=*************
+SMTP_PASSWORD=*************
+DEFAULT_FROM=hello@example.com
+DEFAULT_REPLY_TO=hello@example.com
+
+CLOUDFLARE_ACCOUNT_ID=*************************
+CLOUDFLARE_PROJECT_NAME=*******************
+CLOUDFLARE_AUTH_EMAIL=*****************
+CLOUDFLARE_AUTH_KEY==*********************
+```
+
+## Custom Plugins
+- Cloudflare Publish
+- wysiwyg
+
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
